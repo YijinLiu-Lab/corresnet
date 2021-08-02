@@ -35,3 +35,7 @@ Use this bibtex to cite this repository:
 ```
 
 ## Training on your own dataset
+
+```
+train.py train --dataset=/path/to/coco/ --model_dir=/path/to/your/model
+```
