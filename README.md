@@ -26,13 +26,12 @@ pip install os
 Use this bibtex to cite this repository:
 ```
 @article{jiang_lib_segmentation2020,
-  title={Machine-Learning-Revealed Statistics of the Particle-Carbon/Binder Detachment in Li-Ion Battery Cathodes},
-  author={Z. Jiang, J. Li, Y.Yang, L. Mu, C. Wei, X. Yu, P. Pianetta, K. Zhao, P. Cloetens, F. Lin and Y. Liu},
+  title={Deep-learning-based image registration for nano-resolution tomographic reconstruction},
+  author={Tianyu Fu, Kai Zhang， Yan Wang, Jizhou Li, Jin Zhangab, Chunxia Yao, Qili He, Shanfeng Wang, Wanxia Huang, Qingxi Yuan, Piero Pianetta, and Yijin Liu},
   journal={Nature Communications},
-  year={2020},
-  volume={11},
-  number={2310},
-  doi={10.1038/s41467-020-16233-5},
-  publisher={Nature Publishing Group}
+  year={2021},
+  publisher={Journal of Synchrotron Radiation}
 }
 ```
+
+## Training on your own dataset
