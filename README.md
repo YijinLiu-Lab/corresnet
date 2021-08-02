@@ -14,11 +14,25 @@ Nano-resolution full-field transmission X-ray microscopy has been successfully a
 ![image](https://github.com/SSRL-LiuGroup/corresnet/blob/main/Fig/ss2.png)
 
 
- [data](https://github.com/)
-
+## Installation
+1 Install dependencies
 ```
-import numpy
-np.max
+pip install torch
+pip install dxchange
+pip install os
 ```
 
 ## Citation 
+Use this bibtex to cite this repository:
+```
+@article{jiang_lib_segmentation2020,
+  title={Machine-Learning-Revealed Statistics of the Particle-Carbon/Binder Detachment in Li-Ion Battery Cathodes},
+  author={Z. Jiang, J. Li, Y.Yang, L. Mu, C. Wei, X. Yu, P. Pianetta, K. Zhao, P. Cloetens, F. Lin and Y. Liu},
+  journal={Nature Communications},
+  year={2020},
+  volume={11},
+  number={2310},
+  doi={10.1038/s41467-020-16233-5},
+  publisher={Nature Publishing Group}
+}
+```
