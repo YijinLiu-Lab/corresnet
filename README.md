@@ -13,6 +13,12 @@ Nano-resolution full-field transmission X-ray microscopy has been successfully a
 
 ![image](https://github.com/SSRL-LiuGroup/corresnet/blob/main/Fig/ss2.png)
 
+## Getting Started
+
+![train.py](https://github.com/SSRL-LiuGroup/corresnet/blob/main/train.py) shows how to train network on your own dataset. 
+![model.py](https://github.com/SSRL-LiuGroup/corresnet/blob/main/model.py) These files contain the main network implementation.
+![res_data.py](https://github.com/SSRL-LiuGroup/corresnet/blob/main/res_data.py) This notebook visualizes the different pre-processing steps to prepare the training data.
+![predict.py](https://github.com/SSRL-LiuGroup/corresnet/blob/main/predict.py) shows how to predict network on your own dataset. 
 
 ## Installation
 1 Install dependencies
