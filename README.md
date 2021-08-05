@@ -18,7 +18,7 @@ Nano-resolution full-field transmission X-ray microscopy has been successfully a
 ![train.py](https://github.com/SSRL-LiuGroup/corresnet/blob/main/train.py) shows how to train network on your own dataset. 
 ![model.py](https://github.com/SSRL-LiuGroup/corresnet/blob/main/model.py) These files contain the main network implementation.
 ![res_data.py](https://github.com/SSRL-LiuGroup/corresnet/blob/main/res_data.py) This notebook visualizes the different pre-processing steps to prepare the training data.
-![predict.py](https://github.com/SSRL-LiuGroup/corresnet/blob/main/predict.py) shows how to predict network on your own dataset. 
+![evaluation.py](https://github.com/SSRL-LiuGroup/corresnet/blob/main/evaluation.py) shows how to evaluation network on your own dataset. 
 
 ## Installation
 1 Install dependencies
@@ -26,6 +26,7 @@ Nano-resolution full-field transmission X-ray microscopy has been successfully a
 pip install torch
 pip install dxchange
 pip install os
+
 ```
 
 ## Citation 
@@ -42,6 +43,11 @@ Use this bibtex to cite this repository:
 
 ## Training on your own dataset
 
+You can run the train code with:
 ```
-train.py train --dataset=/path/to/coco/ --model_dir=/path/to/your/model
+python3 train.py train --train_dataroot=/path/to/data/train/ --test_dataroot=/path/to/data/test/ --model_dir=/path/to/your/model/
+```
+You can also run the evaluation code with:
+```
+python3 evaluation.py train --test__path=/path/to/data/evaluation/ --model_dir=/path/to/your/model/
 ```
