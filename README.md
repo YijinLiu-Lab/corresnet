@@ -23,9 +23,9 @@ Nano-resolution full-field transmission X-ray microscopy has been successfully a
 ## Installation
 1 Install dependencies
 ```
-pip install torch
-pip install dxchange
-pip install os
+pip install torch==1.2.0
+pip install dxchange==0.1.5
+pip install opencv==3.4.6
 
 ```
 
@@ -51,3 +51,10 @@ You can also run the evaluation code with:
 ```
 python3 evaluation.py train --test__path=/path/to/data/evaluation/ --model_dir=/path/to/your/model/
 ```
+
+## Contributing
+Contributions to this repository are always welcome. Examples of things you can contribute:
+
+ 1.Accuracy Improvements. A more accurate model based on the shape characteristic is coming.
+ 2.Training on your own data and release the trained models.
+ 3.Visualizations and examples.
