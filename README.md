@@ -55,6 +55,6 @@ python3 evaluation.py train --test__path=/path/to/data/evaluation/ --model_dir=/
 ## Contributing
 Contributions to this repository are always welcome. Examples of things you can contribute:
 
- 1.Accuracy Improvements.
- 2.Training on your own data and release the trained models.
- 3.Visualizations and examples.
+* Accuracy Improvements.
+* Training on your own data and release the trained models.
+* Visualizations and examples.
