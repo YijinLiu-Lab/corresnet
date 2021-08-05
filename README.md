@@ -29,7 +29,6 @@ Nano-resolution full-field transmission X-ray microscopy has been successfully a
 pip install torch==1.2.0
 pip install dxchange==0.1.5
 pip install opencv==3.4.6
-
 ```
 
 ## Citation 
