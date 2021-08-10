@@ -24,11 +24,10 @@ Nano-resolution full-field transmission X-ray microscopy has been successfully a
 ![evaluation.py](https://github.com/SSRL-LiuGroup/corresnet/blob/main/evaluation.py) shows how to evaluation network on your own dataset. 
 
 ## Installation
-1 Install dependencies
+1.Clone this repository via git clone https://github.com/SSRL-LiuGroup/corresnet.git
+2.Install dependencies and current repo
 ```
-pip install torch==1.2.0
-pip install dxchange==0.1.5
-pip install opencv==3.4.6
+pip install -r requirements.txt
 ```
 
 ## Citation 
@@ -37,19 +36,18 @@ Use this bibtex to cite this repository:
 @article{jiang_lib_segmentation2020,
   title={Deep-learning-based image registration for nano-resolution tomographic reconstruction},
   author={Tianyu Fu, Kai Zhang， Yan Wang, Jizhou Li, Jin Zhangab, Chunxia Yao, Qili He, Shanfeng Wang, Wanxia Huang, Qingxi Yuan, Piero Pianetta, and Yijin Liu},
-  journal={Nature Communications},
+  journal={Journal of Synchrotron Radiation},
   year={2021},
-  publisher={Journal of Synchrotron Radiation}
 }
 ```
 
 ## Training on your own dataset
 
-You can run the train code with:
+Train a new model starting from your own dataset:
 ```
 python3 train.py train --train_dataroot=/path/to/data/train/ --test_dataroot=/path/to/data/test/ --model_dir=/path/to/your/model/
 ```
-You can also run the evaluation code with:
+evaluat a new model starting from your own dataset:
 ```
 python3 evaluation.py train --test__path=/path/to/data/evaluation/ --model_dir=/path/to/your/model/
 ```
@@ -60,3 +58,5 @@ Contributions to this repository are always welcome. Examples of things you can 
 * Accuracy Improvements.
 * Training on your own data and release the trained models.
 * Visualizations and examples.
+## Requirements
+Python 3.7, torch 1.2.0 and other common packages listed in requirements.txt.
