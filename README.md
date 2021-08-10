@@ -8,6 +8,7 @@ Nano-resolution full-field transmission X-ray microscopy has been successfully a
 
 ![image](https://github.com/SSRL-LiuGroup/corresnet/blob/main/fig/fig3.png)
 
+
 ## Workflow 
 
 ![image](https://github.com/SSRL-LiuGroup/corresnet/blob/main/fig/fig1.png)
@@ -33,17 +34,6 @@ Nano-resolution full-field transmission X-ray microscopy has been successfully a
 pip install -r requirements.txt
 ```
 
-## Citation 
-Use this bibtex to cite this repository:
-```
-@article{jiang_lib_segmentation2020,
-  title={Deep-learning-based image registration for nano-resolution tomographic reconstruction},
-  author={Tianyu Fu, Kai Zhang， Yan Wang, Jizhou Li, Jin Zhangab, Chunxia Yao, Qili He, Shanfeng Wang, Wanxia Huang, Qingxi Yuan, Piero Pianetta, and Yijin Liu},
-  journal={Journal of Synchrotron Radiation},
-  year={2021},
-}
-```
-
 ## Training on your own dataset
 
 Train a new model starting from your own dataset:
@@ -55,11 +45,23 @@ evaluat a new model starting from your own dataset:
 python3 evaluation.py train --test__path=/path/to/data/evaluation/ --model_dir=/path/to/your/model/
 ```
 
+## Citation 
+Use this bibtex to cite this repository:
+```
+@article{jiang_lib_segmentation2020,
+  title={Deep-learning-based image registration for nano-resolution tomographic reconstruction},
+  author={Tianyu Fu, Kai Zhang， Yan Wang, Jizhou Li, Jin Zhangab, Chunxia Yao, Qili He, Shanfeng Wang, Wanxia Huang, Qingxi Yuan, Piero Pianetta, and Yijin Liu},
+  journal={Journal of Synchrotron Radiation},
+  year={2021},
+}
+```
+
 ## Contributing
 Contributions to this repository are always welcome. Examples of things you can contribute:
 
 * Accuracy Improvements.
 * Training on your own data and release the trained models.
 * Visualizations and examples.
+
 ## Requirements
 Python 3.7, torch 1.2.0 and other common packages listed in requirements.txt.
