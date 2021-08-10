@@ -1,0 +1,9 @@
+numpy
+scipy
+scikit-image
+torch>=1.2.0
+opencv-python
+h5py
+dxchange
+tqdm
+IPython[all]

@@ -1,8 +1,6 @@
 import torch.utils.data as data
 import numpy as np
 from os import listdir
-# from os.path import join
-from PIL import Image, ImageFilter
 import dxchange
 import torch
 from torch.utils.data import DataLoader

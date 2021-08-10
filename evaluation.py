@@ -4,9 +4,7 @@ import numpy as np
 import dxchange
 import os
 from shift_resnet import resnet18
-import tomopy
 import torch
-import matplotlib.pyplot as plt
 import cv2
 import torch.nn as nn
 from res_data import DatasetFromFolder
